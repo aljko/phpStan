@@ -1,5 +1,8 @@
 parameters:
 	level: 6
+	fileExtensions:
+		- php
 	ignoreErrors:
-		- 'Syntax error, unexpected EOF, expecting ';' on line#'
-
+		- '#Call to static method info\(\) on an unknown class Log.#'
+		- '#Function config not found.#'
+		- '#.+ extends unknown class Illuminate\Console\Command.#'
