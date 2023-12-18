@@ -5,7 +5,7 @@ class HelloWorld
     /**
      * @return string
      */
-    public function aljo(string $a): string
+    public function aljoia(string $a): string
     {
         return $a;
     }
