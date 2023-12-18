@@ -1,4 +1,0 @@
-# grumphp.yml
-grumphp:
-    tasks:
-        phpstan: ~
