@@ -2,8 +2,8 @@
 
 class HelloWorld
 {
-    public function aljiio(string $a): string
+    public function aljoia(string $zeZzzz): string
     {
-        return $a;
+        return $zeZzzz;
     }
 }
