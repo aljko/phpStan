@@ -1,5 +1,9 @@
 # grumphp.yml
 grumphp:
-    tasks:
-        phpstan: ~
-        phpmd: ~
+  tasks:
+    phpstan: ~
+    phpmd: 
+      whitelist_patterns: []
+      exclude: []
+      report_format: text
+      ruleset: ['cleancode', 'codesize', 'naming']
