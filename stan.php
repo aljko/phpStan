@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-class helloWorld
+class hiaelloWorld
 {
     public function aljo(string $AaaAaa): string
     {
