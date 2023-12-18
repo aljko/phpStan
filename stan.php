@@ -2,7 +2,7 @@
 
 class HelloWorld
 {
-    public function aljoieea($a)
+    public function aljoieeea($a)
     {
         return $a;
     }
