@@ -1,7 +1,13 @@
 # grumphp.yml
 grumphp:
   tasks:
-    phpstan: ~
+    phpstan:
+      level: 8
+      ignore_patterns:
+        - '/Parameter #1 \$json of function json_decode expects string, string\|false given\./'
+        - '/Call to static method info\(\) on an unknown class Log./'
+        - '/Function config not found./'
+        - '/.+ extends unknown class Illuminate\Console\Command./'
     phpmd:
       whitelist_patterns: []
       exclude: []
