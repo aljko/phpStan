@@ -1,3 +1,7 @@
 <?php
-  echo("fioea");;
+	echo("fioea");
+	function aljo(){
+		return 'aljo!';
+	}
+echo("fioea");
 echo("fioea");
