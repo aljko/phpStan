@@ -2,7 +2,7 @@
 
 class helloWorld
 {
-    public function aljo(string $AaaAaa): string
+    public function aljo(string $AaaAaa)
     {
         return $AaaAaa;
     }
