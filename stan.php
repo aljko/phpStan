@@ -2,8 +2,8 @@
 
 class helloWorld
 {
-    public function aljo(string $AaaAaa)
+    public function aljo(string $AaaAaa): string
     {
-        return $AaaAaa;
+        return $AaaAaaa;
     }
 }
