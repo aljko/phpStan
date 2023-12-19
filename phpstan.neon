@@ -1,4 +1,8 @@
 parameters:
   level: 8
   ignoreErrors:
-        - '#Method helloWorld::aljo\(\) has no return type specified.#'
+        - #Parameter #1 \$json of function json_decode expects string, string\|false given\.#
+        - #Call to static method info\(\) on an unknown class Log.#
+        - #Function config not found.#
+        - #.+ extends unknown class Illuminate\Console\Command.#
+	- ##Method helloWorld::aljo\(\) has no return type specified.#
