@@ -6,12 +6,12 @@ namespace foo;
 
 class HelloWorld
 {
-    public function aljo(string $AaaAaa): string
+    public function aljo(string $AaAaa): string
     {
         $array = [
             1 => 'aljo',
             2 => 'kalac'
         ];
-        return $AaaAaaa;
+        return $AaAaaa;
     }
 }
